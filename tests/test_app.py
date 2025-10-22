@@ -1,6 +1,6 @@
 import pytest
 
-os.path.abspath(os.path.join(os.path.dirname(__file__),'..')))
+os.path.abspath(os.path.join(os.path.dirname(__file__),'..'))
 from app.app import dedupe, add
 def test_dedupe():
     """测试去重功能"""
